@@ -33,7 +33,7 @@ def check_password():
 
 
 def stream_app():
-    st.title("Westminster back delivery processing")
+    st.title("Westminster bag delivery processing")
     with st.expander("Instructions"):
         st.markdown(
             """
