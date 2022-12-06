@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "streamlit-app"
+version = "0.1.0"
+description = "Testing streamlit app"
+authors = ["ejwillemse <ejwillemse@gmail.com>"]
+readme = "README.md"
+packages = [{include = "streamlit_app"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pylint = "^2.15.8"
+streamlit = "^1.15.2"
+watchdog = "^2.2.0"
+black = "^22.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
